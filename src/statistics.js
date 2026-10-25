@@ -1,0 +1,3 @@
+// Estatísticas descritivas dos clusters e conexões entre rótulos no grafo.
+export function clusterProfiles(nodes){return [...new Set(nodes.map(n=>n.cluster))].sort((a,b)=>a-b).map(cluster=>{const arr=nodes.filter(n=>n.cluster===cluster).map(n=>n.temp),mean=arr.reduce((a,b)=>a+b,0)/arr.length,sd=Math.sqrt(arr.reduce((a,b)=>a+(b-mean)**2,0)/arr.length);return{cluster,count:arr.length,mean,min:Math.min(...arr),max:Math.max(...arr),sd}})}
+export function clusterAdjacency(nodes,edges){const m={};for(const e of edges){const a=nodes[e.source].cluster,b=nodes[e.target].cluster,k=`${a}|${b}`;m[k]=(m[k]||0)+1}return Object.entries(m).map(([k,count])=>{const[a,b]=k.split('|').map(Number);return{a,b,count}}).sort((x,y)=>y.count-x.count)}

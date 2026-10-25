@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "name": "amostra_manaus_sintetica",
+  "metadata": {
+    "origem": "sintética",
+    "observacao": "Dados artificiais de demonstração; não são medições reais. Coordenadas na ordem GeoJSON: longitude, latitude."
+  },
+  "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-60.0220,-3.1190]},"properties":{"id":"SIM-A1","temperatura_c":34.8,"observed_at":"2026-01-15T14:00:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-60.0212,-3.1184]},"properties":{"id":"SIM-A2","temperatura_c":35.1,"observed_at":"2026-01-15T14:05:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-60.0230,-3.1201]},"properties":{"id":"SIM-A3","temperatura_c":34.6,"observed_at":"2026-01-15T14:10:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-60.0208,-3.1195]},"properties":{"id":"SIM-A4","temperatura_c":35.0,"observed_at":"2026-01-15T14:15:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-60.0150,-3.0880]},"properties":{"id":"SIM-B1","temperatura_c":39.2,"observed_at":"2026-01-15T14:00:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-60.0142,-3.0875]},"properties":{"id":"SIM-B2","temperatura_c":38.9,"observed_at":"2026-01-15T14:05:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-60.0160,-3.0891]},"properties":{"id":"SIM-B3","temperatura_c":39.5,"observed_at":"2026-01-15T14:10:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-60.0139,-3.0884]},"properties":{"id":"SIM-B4","temperatura_c":39.0,"observed_at":"2026-01-15T14:15:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-59.9980,-3.1450]},"properties":{"id":"SIM-C1","temperatura_c":31.4,"observed_at":"2026-01-15T14:00:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-59.9971,-3.1443]},"properties":{"id":"SIM-C2","temperatura_c":31.8,"observed_at":"2026-01-15T14:05:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-59.9990,-3.1462]},"properties":{"id":"SIM-C3","temperatura_c":31.1,"observed_at":"2026-01-15T14:10:00-04:00"}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-59.9970,-3.1454]},"properties":{"id":"SIM-C4","temperatura_c":31.6,"observed_at":"2026-01-15T14:15:00-04:00"}}
+  ]
+}

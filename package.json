@@ -1,0 +1,6 @@
+{
+  "name": "infraclima-mvp-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test", "preview:build": "node gerar_preview.mjs" }
+}
